@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Exploring the Amazon Rainforest",
+    "content": "Embark on a thrilling journey through the lush Amazon Rainforest. Encounter exotic wildlife, traverse through dense vegetation, and discover hidden wonders in this biodiverse paradise."
+  },
+  {
+    "id": 2,
+    "title": "Trekking in the Himalayas",
+    "content": "Experience the awe-inspiring beauty of the Himalayas as you trek through towering peaks and serene valleys. Witness breathtaking vistas, visit ancient monasteries, and immerse yourself in the rich culture of the Himalayan communities."
+  },
+  {
+    "id": 3,
+    "title": "Diving in the Great Barrier Reef",
+    "content": "Dive into the crystal-clear waters of the Great Barrier Reef and explore one of the world's most spectacular underwater ecosystems. Encounter vibrant coral reefs, colorful marine life, and fascinating underwater landscapes."
+  }
+]

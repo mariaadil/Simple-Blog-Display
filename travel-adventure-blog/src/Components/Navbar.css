@@ -1,0 +1,41 @@
+/* Navbar.css */
+.navbar {
+    background-color: #1e40af;
+    color: white;
+    padding: 20px 10px 20px 10px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+
+  .menu a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #3b82f6;
+  }
+  
+  /* Align menu links in the middle */
+  .menu {
+    display: flex; 
+    gap: 20px; 
+    flex-grow: 1; /* Take up remaining space */
+    justify-content: center; /* Align items in the center */
+  }
+  
