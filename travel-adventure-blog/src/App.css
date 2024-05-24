@@ -1,15 +1,4 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h2 {
-  color: #1e40af;
-}
-
-a {
-  transition: color 0.3s;
-}
-
-a:hover {
-  color: #3b82f6;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
 }

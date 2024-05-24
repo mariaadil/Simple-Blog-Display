@@ -1,17 +1,11 @@
-// Navbar.js
 import React from 'react';
-import './Navbar.css'; // Import the CSS file
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="container">
-        <a href="/" className="brand">Travel & Adventure</a>
-        <div className="menu">
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
-        </div>
-      </div>
+    <nav className="absolute top-0 left-0 w-full p-6 flex justify-end space-x-6 text-white">
+      <a href="#home" className="hover:underline hover:text-yellow-500 transition duration-300">Home</a>
+      <a href="#about" className="hover:underline hover:text-yellow-500 transition duration-300">About</a>
+      <a href="#contact" className="hover:underline hover:text-yellow-500 transition duration-300">Contact</a>
     </nav>
   );
 };
