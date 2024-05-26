@@ -25,13 +25,13 @@ const App = () => {
       </div>
     </div>
       <div className="container mx-auto px-4 md:px-6">
-        <div className="mt-10">
+        <div id='about' className="mt-10">
           <About />
         </div>
-        <div className="mt-10">
+        <div id='destination' className="mt-10">
           <BlogList posts={posts} />
         </div>
-        <div className="mt-10">
+        <div id='guides' className="mt-10">
           <TravelingGuides /> 
         </div>
         <div className="mt-10">
