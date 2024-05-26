@@ -19,7 +19,7 @@ const App = () => {
     <div className="relative min-h-screen">
       <Navbar />
       <div className="w-full h-100 md:h-90 lg:h-100 relative">
-      <img src={backgroundImage} alt="Background" className="w-full h-full object-cover" />
+      <img src={backgroundImage} alt="Background" className="w-full h-screen object-cover" />
         <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
         <h1 className="text-3xl md:text-6xl lg:text-3xl text-white font-bold text-center">You will find the best travel blog here!!!!</h1>
       </div>
