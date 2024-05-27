@@ -8,6 +8,7 @@ import TravelingGuides from './Components/TravellingGuides';
 import Footer from './Components/Footer';
 import ThanksForVisiting from './Components/ThanksForVisiting';
 
+
 const App = () => {
   const [posts, setPosts] = useState([]);
 
