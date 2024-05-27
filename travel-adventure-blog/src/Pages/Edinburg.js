@@ -1,12 +1,10 @@
 import React from 'react';
 import edinburglandImage from '../Images/download (2).jpg';
-import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 
 const Edinburg = () => {
   return (
     <div id='edinburg' className="relative min-h-screen">
-   <Navbar/>
     <div className='container mx-auto px-4 py-8 '>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Left Column: Title */}

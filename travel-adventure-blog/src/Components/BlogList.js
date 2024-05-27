@@ -8,7 +8,7 @@ import image4 from '../Images/download (2).jpg';
 const images = [amsterdamImage, image2, image3, image4];
 
 const BlogList = ({ posts }) => {
-  const blogRoutes = ['/blog1', '/blog2', '/blog3', '/blog4']; // Add more routes as needed
+  const blogRoutes = ['/blog1', '/blog2', '/blog3', '/blog4']; 
 
   return (
     <div className="container mx-auto py-8 px-4 md:px-6">

@@ -12,7 +12,10 @@ import Amster from './Pages/Amster';
 import Edinburg from './Pages/Edinburg';
 import Switzerland from './Pages/Switzerland';
 import Thailand from './Pages/Thailand';
-
+import GuideAmsterdam from './Pages/GuideAmsterdam';
+import GuideIceland from './Pages/GuideIcelands';
+import GuideNorway from './Pages/GuideNorway';
+import GuideParis from './Pages/GuideParis';
 
 const App = () => {
   const [posts, setPosts] = useState([]);
@@ -24,7 +27,7 @@ const App = () => {
   return (
     <Router>
       <div className="relative min-h-screen">
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route
             path="/"
@@ -58,8 +61,10 @@ const App = () => {
           <Route path="/blog2" element={<Switzerland />} />
           <Route path="/blog3" element={<Thailand />} />
           <Route path="/blog4" element={<Edinburg />} />
-        
-          {/* Add routes for other blogs similarly */}
+          <Route path="/amsterdam" element={<GuideAmsterdam />} />
+          <Route path="/iceland" element={<GuideIceland />} />
+          <Route path="/norway" element={<GuideNorway />} />
+          <Route path="/paris" element={<GuideParis />} />
         </Routes>
       </div>
     </Router>

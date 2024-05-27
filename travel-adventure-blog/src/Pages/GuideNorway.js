@@ -6,7 +6,6 @@ import Footer from '../Components/Footer';
 const GuideNorway = () => {
   return (
     <div className="relative min-h-screen">
-      <Navbar />
       <div className="container mx-auto px-4 md:px-6 py-8 my-8 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg shadow-lg">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-blue-800 mb-6">
           <FaMapMarkerAlt className="inline mr-2 text-blue-600" />
