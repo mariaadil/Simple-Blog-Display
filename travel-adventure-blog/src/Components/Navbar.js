@@ -11,13 +11,13 @@ const Navbar = () => {
       </div>
       <ul className="flex-grow flex justify-center">
         <li className="mr-4">
-          <a href="#" className="text-white font-bold hover:text-gray-200">ABOUT</a>
+          <a href="#about" className="text-white font-bold hover:text-gray-200">ABOUT</a>
         </li>
         <li className="mr-4">
-          <a href="#" className="text-white font-bold hover:text-gray-200">DESTINATION</a>
+          <a href="#destination" className="text-white font-bold hover:text-gray-200">DESTINATION</a>
         </li>
         <li className="mr-4">
-          <a href="#" className="text-white font-bold hover:text-gray-200">GUIDES</a>
+          <a href="#guides" className="text-white font-bold hover:text-gray-200">GUIDES</a>
         </li>
       </ul>
       <ul className="flex justify-end">
